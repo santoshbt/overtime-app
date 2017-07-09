@@ -59,3 +59,8 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'devise', '~> 4.2'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
+# gem 'administrate', github: 'BenMorganIO/administrate', branch: 'rails-5-support'
+# gem 'bourbon'
+
+gem 'administrate', github: 'greetpoint/administrate', branch: 'rails5'
+gem 'bourbon', '~> 5.0.0.beta.5' 
