@@ -62,7 +62,6 @@ describe 'navigate' do
         login_as(delete_user, scope: :user)
 
         post_to_delete = Post.create(date: Date.today, rationale: 'asdf', user_id: delete_user.id)
-
         visit posts_path
 
         click_link("delete_post_#{post_to_delete.id}_from_index")
