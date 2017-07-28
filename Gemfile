@@ -30,6 +30,7 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'gritter', '1.2.0'
 gem 'puma', '~> 3.9', '>= 3.9.1'
+gem 'twilio-ruby', '~> 5.1'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
