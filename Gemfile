@@ -68,3 +68,4 @@ gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 gem 'administrate', github: 'greetpoint/administrate', branch: 'rails5'
 gem 'bourbon', '~> 5.0.0.beta.5' 
 gem 'pundit', '~> 1.1'
+gem 'dotenv-rails', :groups => [:development, :test]
