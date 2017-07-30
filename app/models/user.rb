@@ -6,6 +6,10 @@ class User < ApplicationRecord
 
    validates :first_name, :last_name, :phone, presence: true     
    has_many :posts
+   PHONE_REGEX = /\A[0-9]*\z/
+
+   validates :phone, format: { with: PHONE_REGEX }
+   validates :phone, length: { maximum: 10 }
 
    def full_name
    	last_name.upcase + ", " + first_name.upcase
