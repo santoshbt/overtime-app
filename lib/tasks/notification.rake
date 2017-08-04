@@ -12,7 +12,7 @@ namespace :notification do
 
   	# No spaces or dashes
   	# exactly 10characters
-  	# all characters have to be number
+  	# all characters have to be number	
   end
 
 end
